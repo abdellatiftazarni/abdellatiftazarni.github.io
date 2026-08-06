@@ -12,8 +12,8 @@ export const siteConfig: SiteConfig = {
 	subtitle: "Pentesting & Offensive Security",
 	lang: "en",
 	themeColor: {
-		hue: 200,
-		fixed: false,
+		hue: 145,
+		fixed: true,
 	},
 	banner: {
 		enable: false,

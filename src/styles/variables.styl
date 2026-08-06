@@ -23,49 +23,49 @@ define(vars)
         {key}: value[1]
 
 define({
-  --primary: oklch(0.70 0.14 var(--hue)) oklch(0.75 0.14 var(--hue))
-  --page-bg: oklch(0.95 0.01 var(--hue)) oklch(0.16 0.014 var(--hue))
-  --card-bg: white oklch(0.23 0.015 var(--hue))
+  --primary: oklch(0.65 0.20 145) oklch(0.72 0.22 145)
+  --page-bg: oklch(0.95 0.01 145) oklch(0.08 0.012 145)
+  --card-bg: white oklch(0.13 0.018 145)
 
-  --btn-content: oklch(0.55 0.12 var(--hue)) oklch(0.75 0.1 var(--hue))
+  --btn-content: oklch(0.50 0.15 145) oklch(0.72 0.18 145)
 
-  --btn-regular-bg: oklch(0.95 0.025 var(--hue)) oklch(0.33 0.035 var(--hue))
-  --btn-regular-bg-hover: oklch(0.9 0.05 var(--hue)) oklch(0.38 0.04 var(--hue))
-  --btn-regular-bg-active: oklch(0.85 0.08 var(--hue)) oklch(0.43 0.045 var(--hue))
+  --btn-regular-bg: oklch(0.93 0.025 145) oklch(0.18 0.030 145)
+  --btn-regular-bg-hover: oklch(0.88 0.05 145) oklch(0.22 0.038 145)
+  --btn-regular-bg-active: oklch(0.83 0.08 145) oklch(0.26 0.045 145)
 
-  --btn-plain-bg-hover: oklch(0.95 0.025 var(--hue)) oklch(0.30 0.035 var(--hue))
-  --btn-plain-bg-active: oklch(0.98 0.01 var(--hue)) oklch(0.27 0.025 var(--hue))
+  --btn-plain-bg-hover: oklch(0.93 0.025 145) oklch(0.20 0.030 145)
+  --btn-plain-bg-active: oklch(0.97 0.01 145) oklch(0.16 0.022 145)
 
-  --btn-card-bg-hover: oklch(0.98 0.005 var(--hue)) oklch(0.3 0.03 var(--hue))
-  --btn-card-bg-active: oklch(0.9 0.03 var(--hue)) oklch(0.35 0.035 var(--hue))
+  --btn-card-bg-hover: oklch(0.97 0.005 145) oklch(0.19 0.025 145)
+  --btn-card-bg-active: oklch(0.88 0.03 145) oklch(0.23 0.030 145)
 
   --enter-btn-bg: var(--btn-regular-bg)
   --enter-btn-bg-hover: var(--btn-regular-bg-hover)
   --enter-btn-bg-active: var(--btn-regular-bg-active)
 
-  --deep-text: oklch(0.25 0.02 var(--hue))
+  --deep-text: oklch(0.25 0.02 145)
 
-  --title-active: oklch(0.6 0.1 var(--hue))
+  --title-active: oklch(0.55 0.18 145)
 
-  --line-divider: black(0.08) white(0.08)
+  --line-divider: black(0.08) white(0.06)
 
-  --line-color: black(0.1) white(0.1)
+  --line-color: black(0.1) oklch(0.72 0.22 145 / 0.25)
   --meta-divider: black(0.2) white(0.2)
 
   --inline-code-bg: var(--btn-regular-bg)
   --inline-code-color: var(--btn-content)
-  --selection-bg: oklch(0.90 0.05 var(--hue)) oklch(0.40 0.08 var(--hue))
-  --codeblock-selection: oklch(0.40 0.08 var(--hue))
-  --codeblock-bg: oklch(0.17 0.015 var(--hue)) oklch(0.17 0.015 var(--hue))
-  --codeblock-topbar-bg: oklch(0.3 0.02 var(--hue)) oklch(0.12 0.015 var(--hue))
+  --selection-bg: oklch(0.88 0.06 145) oklch(0.28 0.10 145)
+  --codeblock-selection: oklch(0.30 0.10 145)
+  --codeblock-bg: oklch(0.17 0.015 145) oklch(0.10 0.015 145)
+  --codeblock-topbar-bg: oklch(0.28 0.02 145) oklch(0.07 0.012 145)
 
   --license-block-bg: black(0.03) var(--codeblock-bg)
 
-  --link-underline: oklch(0.93 0.04 var(--hue)) oklch(0.40 0.08 var(--hue))
-  --link-hover: oklch(0.95 0.025 var(--hue)) oklch(0.40 0.08 var(--hue))
-  --link-active: oklch(0.90 0.05 var(--hue)) oklch(0.35 0.07 var(--hue))
+  --link-underline: oklch(0.91 0.05 145) oklch(0.35 0.10 145)
+  --link-hover: oklch(0.93 0.03 145) oklch(0.38 0.10 145)
+  --link-active: oklch(0.88 0.06 145) oklch(0.30 0.08 145)
 
-  --float-panel-bg: white oklch(0.19 0.015 var(--hue))
+  --float-panel-bg: white oklch(0.12 0.016 145)
 
   --scrollbar-bg-light: black(0.4)
   --scrollbar-bg-hover-light: black(0.5)
@@ -90,9 +90,9 @@ define({
   --admonitions-color-warning: oklch(0.7 0.14 60) oklch(0.75 0.14 60)
   --admonitions-color-caution: oklch(0.6 0.2 25) oklch(0.65 0.2 25)
 
-  --toc-badge-bg: oklch(0.89 0.050 var(--hue)) var(--btn-regular-bg)
-  --toc-btn-hover: oklch(0.926 0.015 var(--hue)) oklch(0.22 0.02 var(--hue))
-  --toc-btn-active: oklch(0.90 0.015 var(--hue)) oklch(0.25 0.02 var(--hue))
+  --toc-badge-bg: oklch(0.87 0.055 145) var(--btn-regular-bg)
+  --toc-btn-hover: oklch(0.920 0.018 145) oklch(0.16 0.020 145)
+  --toc-btn-active: oklch(0.88 0.018 145) oklch(0.19 0.020 145)
   --toc-width: calc((100vw - var(--page-width)) / 2 - 1rem)
-  --toc-item-active: oklch(0.70 0.13 var(--hue)) oklch(0.35 0.07 var(--hue))
+  --toc-item-active: oklch(0.65 0.18 145) oklch(0.30 0.08 145)
 })

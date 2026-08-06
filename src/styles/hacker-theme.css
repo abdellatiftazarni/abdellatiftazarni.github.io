@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+:root {
+    --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+body {
+    font-family: var(--font-mono);
+}
+
+/* Cards — dark border + subtle green glow */
+.dark .card-base {
+    border: 1px solid oklch(0.72 0.22 145 / 0.15);
+    box-shadow: 0 0 18px oklch(0.72 0.22 145 / 0.06), 0 2px 8px rgba(0,0,0,0.5);
+}
+
+/* Navbar bottom glow */
+.dark #navbar-wrapper {
+    box-shadow: 0 1px 0 oklch(0.72 0.22 145 / 0.20), 0 4px 24px rgba(0,0,0,0.6);
+}
+
+/* Green glow on hovered links */
+.dark a:hover {
+    text-shadow: 0 0 8px oklch(0.72 0.22 145 / 0.45);
+}
+
+/* Green glow on hovered buttons */
+.dark .btn-regular:hover,
+.dark .btn-plain:hover {
+    box-shadow: 0 0 10px oklch(0.72 0.22 145 / 0.25);
+}
+
+/* Subtle scanline overlay */
+.dark body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0, 255, 100, 0.012) 2px,
+        rgba(0, 255, 100, 0.012) 4px
+    );
+    pointer-events: none;
+    z-index: 9998;
+}
+
+/* Terminal-style code blocks */
+.dark pre,
+.dark code {
+    font-family: var(--font-mono) !important;
+    border: 1px solid oklch(0.72 0.22 145 / 0.20);
+}
