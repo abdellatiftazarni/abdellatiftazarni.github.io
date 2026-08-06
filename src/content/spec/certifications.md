@@ -20,6 +20,12 @@ Focuses on Active Directory attack techniques including enumeration, privilege e
 
 ---
 
-### eWPTX — Web Application Penetration Tester Extreme *(In Progress)*
+### eWPTX — Web Application Penetration Tester Extreme
 
 Advanced web application pentesting covering complex attack chains, API security, and evasion techniques.
+
+<a href="/assets/certs/ewptx.pdf" target="_blank" style="display:inline-block;margin-bottom:1rem;padding:0.5rem 1.25rem;background:var(--primary);color:#fff;border-radius:0.5rem;font-weight:600;text-decoration:none;">Download Certificate (PDF)</a>
+
+<iframe src="/assets/certs/ewptx.pdf" width="100%" height="800px" style="border:none;border-radius:0.5rem;"></iframe>
+
+---
