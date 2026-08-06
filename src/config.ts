@@ -58,7 +58,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "/assets/images/profile.jpeg",
 	name: "Abdellatif Tazarni",
-	bio: "Pentester · CTF Player · HTB Pro Hacker — eCPPT | CRTA",
+	bio: "Pentester · CTF Player · HTB Pro Hacker — eCPPT | eWPTX | CRTA",
 	links: [
 		{
 			name: "LinkedIn",
